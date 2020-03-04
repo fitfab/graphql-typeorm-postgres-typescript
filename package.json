@@ -1,5 +1,5 @@
 {
-  "name": "artnet-auction-graphql-tool",
+  "name": "graphql-typeorm-postgres-typescript",
   "version": "0.0.1",
   "description": "Awesome project developed with TypeORM.",
   "author": {
@@ -13,11 +13,13 @@
     "typescript": "3.3.3333"
   },
   "dependencies": {
-    "typeorm": "0.2.24",
+    "apollo-server": "^2.11.0",
+    "graphql": "^14.6.0",
+    "pg": "^7.3.0",
     "reflect-metadata": "^0.1.10",
-    "pg": "^7.3.0"
+    "typeorm": "0.2.24"
   },
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/server.ts"
   }
 }
